@@ -34,5 +34,5 @@ if __name__ == '__main__':
     rf.evaluate(test_data ,test_label)						 #输出随机森林的准确率
 ````
 
-1.4 程序放在我的GitHub上面
+1.4 程序放在我的GitHub https://github.com/1428409697/AIwork 上面
 
