@@ -21,7 +21,7 @@
 import AIwork
 import pandas as pd
 if __name__ == '__main__':
-    filename = '../dataset1_(240).xlsx'            #确定数据文件
+    filename = '../dataset/dataset1_(240).xlsx'            #确定数据文件
     data = pd.read_excel(filename)								 #读取文件的数据
     train_samples = 200														 #定义训练集的数量(根据需要自定)
     iec = AIwork.IEC(data)                         #实例化IEC三比值类
