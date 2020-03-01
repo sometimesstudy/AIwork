@@ -41,7 +41,7 @@
 
 #### 1.3 变压器只能故障诊断系统详解
 ![首页](https://github.com/sometimesstudy/AIwork/blob/master/img/主页.png)
-![计算](https://github.com/sometimesstudy/AIwork/blob/master/img/计算.png)
+![计算](https://github.com/sometimesstudy/AIwork/blob/master/img/%E8%AE%A1%E7%AE%97.png)
 1. 运行diagnosissys.py文件
 2. 在首页中填写变压器油中溶解气体的数据，后端会根据三种算法来诊断变压器的故障，一共有6种故障，用1~6表示。
 3. 点击诊断按键，会进行计算，计算速度很快。
