@@ -14,8 +14,6 @@
       - [1.3 变压器只能故障诊断系统详解](#13--------------)
       - [1.4 程序放在我的GitHub https://github.com/sometimesstudy/AIwork  上面,下载指令](#14-------github-https---githubcom-sometimesstudy-aiwork---------)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 #### 程序讲解
 
 #### 1.1 开发环境 macOS mojave 10.14.6    win10和ubuntu测试可用
