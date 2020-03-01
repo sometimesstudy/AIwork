@@ -39,7 +39,7 @@
 + SVM
 + 随机森林
 
-#### 1.3 变压器只能故障诊断系统详解
+#### 1.3 变压器智能故障诊断系统详解
 ![首页](https://github.com/sometimesstudy/AIwork/blob/master/img/%E9%A6%96%E9%A1%B5.png)
 ![计算](https://github.com/sometimesstudy/AIwork/blob/master/img/%E8%AE%A1%E7%AE%97.png)
 1. 运行diagnosissys.py文件
