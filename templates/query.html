@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>计算结果</title>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/css/bootstrap.css" rel="stylesheet">
+  <style>
+        .p {
+      color: darkblue;
+      text-align: center;
+      font-size: 32px;
+      padding-left: 475px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <div>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="/">返回</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/sometimesstudy">GitHub</a>
+  </li>
+      <li class="nav-item">
+    <a class="nav-link" href="https://sometimesstudy.gitee.io">博客</a>
+  </li>
+</ul>
+    <div style="background-color: cadetblue;height: 1500px;">
+      <div>
+        <p1 class="p">变压器智能故障诊断系统 V1.0</p1>
+        <br>
+        <p3 class="p">作者：王宇轩</p3>
+        <br>
+        <p4 class="p">初稿时间：2020年1月9日</p4>
+        <br>
+        <p4 class="p">修改时间：2020年3月1日</p4>
+        <br>
+      </div>
+    <div style="width: 500px;
+  height: 400px;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  padding-top: 30px;">
+      <ul class="list-group">
+
+        <li class="list-group-item list-group-item-primary" style="text-align: center">3种算法故障预测结果</li>
+        <!-- <li class="list-group-item list-group-item-primary">IEC三比值预测故障为: {{ iec }}</li> -->
+        <li class="list-group-item list-group-item-secondary" style="text-align: center">SVM预测故障为: {{ svm }}</li>
+        <li class="list-group-item list-group-item-success" style="text-align: center">knn预测故障为: {{ knn }}</li>
+        <li class="list-group-item list-group-item-danger" style="text-align: center">随机森林预测故障为: {{ rf }}</li>
+
+      </ul>
+    </div>
+
+
+        
+        
+  </div>
+
+
+</body>
+
+</html>

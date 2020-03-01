@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>变压器故障诊断系统</title>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.4.1/css/bootstrap.css" rel="stylesheet">
+  <style>
+    .p {
+      color: darkblue;
+      text-align: center;
+      font-size: 32px;
+      padding-left: 475px;
+    }
+    .p :nth-child(2){
+      padding-left: 100px;
+    }
+  </style>
+</head>
+
+<body>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="README.html">文档</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://github.com/sometimesstudy">GitHub</a>
+  </li>
+      <li class="nav-item">
+    <a class="nav-link" href=" https://sometimesstudy.gitee.io">博客</a>
+  </li>
+</ul>
+  <div style="background-color: cadetblue;height: 1500px;">
+    <div>
+      <p1 class="p">变压器智能故障诊断系统 V1.0</p1>
+      <br>
+      <p3 class="p">作者：王宇轩</p3>
+      <br>
+      <p4 class="p">初稿时间：2020年1月9日</p4>
+      <br>
+      <p4 class="p">修改时间：2020年3月1日</p4>
+      <br>
+    </div>
+
+
+    <div style="width: 600px;text-align:center ">
+      <form method="post" style="width: 500px;
+     height: 400px;
+     position: absolute;
+     left: 30%;
+     top: 30%;
+     padding-top: 30px;
+    background-color: antiquewhite;">
+        <p><strong> 请填入变压器油中相关数据</strong> </p>
+        {{ form.csrf_token() }}
+        <div class="form-group">
+          <label for="exampleInputEmail1">{{ form.h2.label }}</label>
+          {{form.h2}}
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">{{ form.ch4.label }}</label>
+          {{ form.ch4 }}
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">{{ form.c2h2.label }}</label>
+          {{form.c2h2}}
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">{{ form.c2h4.label }}</label>
+          {{form.c2h4}}
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">{{ form.c2h6.label }}</label>
+          {{form.c2h6}}
+        </div>
+        {{ form.submit }}
+
+
+      </form>
+    </div>
+    {% for message in get_flashed_messages() %}
+    {{ message }}
+    {% endfor %}
+  
+  </div>
+</body>
+
+</html>
