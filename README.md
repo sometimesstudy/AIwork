@@ -3,9 +3,19 @@
 ### 题目：变压器故障诊断系统 V1.0
 
 学生：王宇轩
+- [人工智能作业](#------)
+    + [题目：变压器故障诊断系统 V1.0](#-------------v10)
+      - [程序讲解](#----)
+      - [1.1 开发环境 macOS mojave 10.14.6    win10和ubuntu测试可用](#11------macos-mojave-10146----win10-ubuntu----)
+        * [必备的python库](#---python-)
+        * [各文件夹的作用](#-------)
+        * [本软件设计到的框架](#---------)
+      - [1.2 本程序分为三个算法：](#12-----------)
+      - [1.3 变压器只能故障诊断系统详解](#13--------------)
+      - [1.4 程序放在我的GitHub https://github.com/sometimesstudy/AIwork  上面,下载指令](#14-------github-https---githubcom-sometimesstudy-aiwork---------)
 
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-[toc]
 #### 程序讲解
 
 #### 1.1 开发环境 macOS mojave 10.14.6    win10和ubuntu测试可用
